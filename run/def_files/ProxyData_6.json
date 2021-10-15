@@ -1,0 +1,532 @@
+{
+  "federates": [
+    {
+      "FederateType": "PGN_CP_M",
+      "NameOfFederate": "PGN_CP_M",
+      "requestExitRunStatus": 0,
+      "vctAdressInteraction": [
+        {
+          "className": "CommandCP_LCH",
+          "vctPairs": [
+            {
+              "ID_Recipient": 327682,
+              "ID_Source": 196610
+            },
+            {
+              "ID_Recipient": 327683,
+              "ID_Source": 196610
+            }
+          ]
+        },
+        {
+          "className": "CommandCP_MFR",
+          "vctPairs": [
+            {
+              "ID_Recipient": 262146,
+              "ID_Source": 196610
+            },
+            {
+              "ID_Recipient": 262147,
+              "ID_Source": 196610
+            }
+          ]
+        }
+      ],
+      "vctClassesID": [
+        {
+          "className": "PU",
+          "vctID": [
+            196610
+          ]
+        }
+      ],
+      "vctInformObjects": [
+        {
+          "className": "LinkData",
+          "vctPairs": [
+            {
+              "ID_Recipient": 262146,
+              "ID_Source": 196610
+            },
+            {
+              "ID_Recipient": 327682,
+              "ID_Source": 196610
+            },
+            {
+              "ID_Recipient": 327683,
+              "ID_Source": 196610
+            },
+            {
+              "ID_Recipient": 262147,
+              "ID_Source": 196610
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FederateType": "PGN_FCO_M",
+      "NameOfFederate": "PGN_FCO_M",
+      "requestExitRunStatus": 0,
+      "vctAdressInteraction": [
+        {
+          "className": "StartJammerBeam",
+          "vctPairs": [
+            {
+              "ID_Recipient": 262146,
+              "ID_Source": 393218
+            },
+            {
+              "ID_Recipient": 262146,
+              "ID_Source": 393219
+            },
+            {
+              "ID_Recipient": 262146,
+              "ID_Source": 393220
+            },
+            {
+              "ID_Recipient": 458754,
+              "ID_Source": 393218
+            },
+            {
+              "ID_Recipient": 458754,
+              "ID_Source": 393219
+            },
+            {
+              "ID_Recipient": 458754,
+              "ID_Source": 393220
+            },
+            {
+              "ID_Recipient": 262147,
+              "ID_Source": 393218
+            },
+            {
+              "ID_Recipient": 262147,
+              "ID_Source": 393219
+            },
+            {
+              "ID_Recipient": 262147,
+              "ID_Source": 393220
+            }
+          ]
+        },
+        {
+          "className": "StopJammerBeam",
+          "vctPairs": [
+            {
+              "ID_Recipient": 262146,
+              "ID_Source": 393218
+            },
+            {
+              "ID_Recipient": 262146,
+              "ID_Source": 393219
+            },
+            {
+              "ID_Recipient": 262146,
+              "ID_Source": 393220
+            },
+            {
+              "ID_Recipient": 458754,
+              "ID_Source": 393218
+            },
+            {
+              "ID_Recipient": 458754,
+              "ID_Source": 393219
+            },
+            {
+              "ID_Recipient": 458754,
+              "ID_Source": 393220
+            },
+            {
+              "ID_Recipient": 262147,
+              "ID_Source": 393218
+            },
+            {
+              "ID_Recipient": 262147,
+              "ID_Source": 393219
+            },
+            {
+              "ID_Recipient": 262147,
+              "ID_Source": 393220
+            }
+          ]
+        }
+      ],
+      "vctClassesID": [
+        {
+          "className": "DipoleCloud",
+          "vctID": [
+            393220
+          ]
+        },
+        {
+          "className": "FlyingObject",
+          "vctID": [
+            393218
+          ]
+        },
+        {
+          "className": "SpaceObject",
+          "vctID": [
+            393219
+          ]
+        }
+      ],
+      "vctInformObjects": []
+    },
+    {
+      "FederateType": "PGN_LCH_M",
+      "NameOfFederate": "PGN_LCH_M",
+      "requestExitRunStatus": 0,
+      "vctAdressInteraction": [
+        {
+          "className": "Command_Firing_SAM",
+          "vctPairs": [
+            {
+              "ID_Recipient": 458754,
+              "ID_Source": 327682
+            },
+            {
+              "ID_Recipient": 458754,
+              "ID_Source": 327683
+            }
+          ]
+        },
+        {
+          "className": "CommandLCH_CP",
+          "vctPairs": [
+            {
+              "ID_Recipient": 196610,
+              "ID_Source": 327682
+            },
+            {
+              "ID_Recipient": 196610,
+              "ID_Source": 327683
+            }
+          ]
+        },
+        {
+          "className": "Command_Firing_SAM_Unpacked",
+          "vctPairs": [
+            {
+              "ID_Recipient": 458754,
+              "ID_Source": 327682
+            },
+            {
+              "ID_Recipient": 458754,
+              "ID_Source": 327683
+            }
+          ]
+        }
+      ],
+      "vctClassesID": [
+        {
+          "className": "PU",
+          "vctID": [
+            327682,
+            327683
+          ]
+        }
+      ],
+      "vctInformObjects": [
+        {
+          "className": "LinkData",
+          "vctPairs": [
+            {
+              "ID_Recipient": 196610,
+              "ID_Source": 327682
+            },
+            {
+              "ID_Recipient": 262146,
+              "ID_Source": 327682
+            },
+            {
+              "ID_Recipient": 262147,
+              "ID_Source": 327682
+            },
+            {
+              "ID_Recipient": 196610,
+              "ID_Source": 327683
+            },
+            {
+              "ID_Recipient": 262146,
+              "ID_Source": 327683
+            },
+            {
+              "ID_Recipient": 262147,
+              "ID_Source": 327683
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FederateType": "PGN_MFR_M",
+      "NameOfFederate": "PGN_MFR_M",
+      "requestExitRunStatus": 0,
+      "vctAdressInteraction": [
+        {
+          "className": "StartRadarBeam",
+          "vctPairs": [
+            {
+              "ID_Recipient": 393218,
+              "ID_Source": 262146
+            },
+            {
+              "ID_Recipient": 393219,
+              "ID_Source": 262146
+            },
+            {
+              "ID_Recipient": 393220,
+              "ID_Source": 262146
+            },
+            {
+              "ID_Recipient": 393218,
+              "ID_Source": 262147
+            },
+            {
+              "ID_Recipient": 393219,
+              "ID_Source": 262147
+            },
+            {
+              "ID_Recipient": 393220,
+              "ID_Source": 262147
+            }
+          ]
+        },
+        {
+          "className": "StopRadarBeam",
+          "vctPairs": [
+            {
+              "ID_Recipient": 393218,
+              "ID_Source": 262146
+            },
+            {
+              "ID_Recipient": 393219,
+              "ID_Source": 262146
+            },
+            {
+              "ID_Recipient": 393220,
+              "ID_Source": 262146
+            },
+            {
+              "ID_Recipient": 393218,
+              "ID_Source": 262147
+            },
+            {
+              "ID_Recipient": 393219,
+              "ID_Source": 262147
+            },
+            {
+              "ID_Recipient": 393220,
+              "ID_Source": 262147
+            }
+          ]
+        }
+      ],
+      "vctClassesID": [
+        {
+          "className": "Sensor",
+          "vctID": [
+            262146,
+            262147
+          ]
+        }
+      ],
+      "vctInformObjects": [
+        {
+          "className": "LinkData",
+          "vctPairs": [
+            {
+              "ID_Recipient": 196610,
+              "ID_Source": 262146
+            },
+            {
+              "ID_Recipient": 327682,
+              "ID_Source": 262146
+            },
+            {
+              "ID_Recipient": 327683,
+              "ID_Source": 262146
+            },
+            {
+              "ID_Recipient": 196610,
+              "ID_Source": 262147
+            },
+            {
+              "ID_Recipient": 327682,
+              "ID_Source": 262147
+            },
+            {
+              "ID_Recipient": 327683,
+              "ID_Source": 262147
+            }
+          ]
+        },
+        {
+          "className": "LinkMFR_CP_SAM",
+          "vctPairs": [
+            {
+              "ID_Recipient": 196610,
+              "ID_Source": 262146
+            },
+            {
+              "ID_Recipient": 196610,
+              "ID_Source": 262147
+            }
+          ]
+        },
+        {
+          "className": "LinkMFR_CP_Target",
+          "vctPairs": [
+            {
+              "ID_Recipient": 196610,
+              "ID_Source": 262146
+            },
+            {
+              "ID_Recipient": 196610,
+              "ID_Source": 262147
+            }
+          ]
+        },
+        {
+          "className": "LinkMFR_SAM_ExchangeData",
+          "vctPairs": [
+            {
+              "ID_Recipient": 458754,
+              "ID_Source": 262146
+            },
+            {
+              "ID_Recipient": 458754,
+              "ID_Source": 262147
+            }
+          ]
+        },
+        {
+          "className": "Data_FromMFR_CP",
+          "vctPairs": [
+            {
+              "ID_Recipient": 196610,
+              "ID_Source": 262146
+            },
+            {
+              "ID_Recipient": 196610,
+              "ID_Source": 262147
+            }
+          ]
+        },
+        {
+          "className": "LinkMFR_SAM_UnpackedExchangeData",
+          "vctPairs": [
+            {
+              "ID_Recipient": 458754,
+              "ID_Source": 262146
+            },
+            {
+              "ID_Recipient": 458754,
+              "ID_Source": 262147
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FederateType": "PGN_SAM_M",
+      "NameOfFederate": "PGN_SAM_M_1",
+      "requestExitRunStatus": 0,
+      "vctAdressInteraction": [
+        {
+          "className": "StartRadarBeam",
+          "vctPairs": [
+            {
+              "ID_Recipient": 393218,
+              "ID_Source": 458754
+            },
+            {
+              "ID_Recipient": 393219,
+              "ID_Source": 458754
+            },
+            {
+              "ID_Recipient": 393220,
+              "ID_Source": 458754
+            }
+          ]
+        },
+        {
+          "className": "StopRadarBeam",
+          "vctPairs": [
+            {
+              "ID_Recipient": 393218,
+              "ID_Source": 458754
+            },
+            {
+              "ID_Recipient": 393219,
+              "ID_Source": 458754
+            },
+            {
+              "ID_Recipient": 393220,
+              "ID_Source": 458754
+            }
+          ]
+        }
+      ],
+      "vctClassesID": [
+        {
+          "className": "FlyingObject",
+          "vctID": [
+            458754
+          ]
+        }
+      ],
+      "vctInformObjects": [
+        {
+          "className": "LinkRLRT_MFR_ExchangeData",
+          "vctPairs": [
+            {
+              "ID_Recipient": 262146,
+              "ID_Source": 458754
+            },
+            {
+              "ID_Recipient": 262147,
+              "ID_Source": 458754
+            }
+          ]
+        },
+        {
+          "className": "Data_FromSAM_MFR",
+          "vctPairs": [
+            {
+              "ID_Recipient": 262146,
+              "ID_Source": 458754
+            },
+            {
+              "ID_Recipient": 262147,
+              "ID_Source": 458754
+            }
+          ]
+        },
+        {
+          "className": "LinkRLRT_MFR_UnpackedExchangeData",
+          "vctPairs": [
+            {
+              "ID_Recipient": 262146,
+              "ID_Source": 458754
+            },
+            {
+              "ID_Recipient": 262147,
+              "ID_Source": 458754
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "FederateType": "PGN_Visualizator_M",
+      "NameOfFederate": "PGN_Visualizator_M",
+      "requestExitRunStatus": 0,
+      "vctAdressInteraction": [],
+      "vctClassesID": [],
+      "vctInformObjects": []
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1221</width>
+    <height>961</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>JSON Parse</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="fromjson_but">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>231</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выгрузить данные из json-файла</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="file_name">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>10</y>
+      <width>951</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTreeView" name="json_view">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>1191</width>
+      <height>791</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="item_select">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>311</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Формат файла</string>
+    </property>
+    <widget class="QRadioButton" name="scenario_item">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>104</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>СЦЕНАРИЙ</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="proxy_item">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>30</y>
+       <width>104</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ПРОКСИ</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="runs_item">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>30</y>
+       <width>104</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ПРОГОНЫ</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="tojson_but">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>920</y>
+      <width>281</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Загрузить данные в json-файл</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

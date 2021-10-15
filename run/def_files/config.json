@@ -1,0 +1,10 @@
+{
+    "DB part": {
+        "db-dialect": "QPSQL",
+        "db-host": "localhost",
+        "db-password": "aero*aero",
+        "db-port": "5432",
+        "db-sid": "aero",
+        "db-user": "aero"
+    }
+}
